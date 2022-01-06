@@ -29,22 +29,31 @@ margin-bottom: 15%;
 
 
 
+.img-center{
+padding-top:3%;
+text-align:center;
+}
+
+
+
 #Projects{
 
 padding : 3%;
+
 
 }
 
 .project-showcase{
 background-color: #fcf7f5;
 padding:3%;
+
 }
 
 .project-case-show-img{
-width: 300px;
+width: 50%;
 border-radius:20%;
-margin: auto;
-display: block;
+
+
 }
 
 .project-decrip{
@@ -123,7 +132,7 @@ margin: 0 10% 3% ;
   }
   100% {
     opacity:0;
-}
+  }
 
 }
 
