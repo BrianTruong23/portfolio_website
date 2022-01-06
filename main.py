@@ -18,7 +18,8 @@ class ContactForm(FlaskForm):
 
 app = Flask(__name__)
 
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+
+app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY")
 ckeditor = CKEditor(app)
 Bootstrap(app)
 
@@ -44,8 +45,7 @@ def project_showcase():
 
 
 def send_messages(name,message,email):
-    os.environ['EMAIL_USER'] = 'ronaldotruong223@gmail.com'
-    os.environ['EMAIL_PASSWORD'] = '22022003'
+    
 
     sender = os.environ.get("EMAIL_USER")
     receiver = "truongthoithang@gmail.com"
