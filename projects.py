@@ -31,7 +31,7 @@ project_2 = Project(
     big_title = "Blog",
     name = "Thang's Blog",
     year = "2021",
-    category = "Blog Website",
+    category = "Website",
     description = "The blog is built as a project from Python Course on Udemy by Angela Yu. It is built by HTML, CSS, and Python with Flask handling the back-end and user registration. It also uses Sqlalchemy to store the database of the users. The blog is where I share my voice. This is where I talk to the world.",
     img_url = "static/images/blog.jpg",
     award = "My Diary",
@@ -41,14 +41,14 @@ project_2 = Project(
 
 project_3 = Project(
     big_title = "VieTalk Website",
-    name = "Thang's Blog",
+    name = "VieTalk Website",
     year = "2021",
-    category = "Blog Website",
-    description = "The blog is built as a project from Python Course on Udemy by Angela Yu. It lets the user register to make comment. It is built by HTML, CSS, and Python with Flask handling the back-end. It also uses Sqlalchemy to store the database of the users. The blog is where I share my voice. This is where I talk to the world.",
-    img_url = "static/images/blog.jpg",
-    award = "My Diary",
-    source_url = "https://github.com/BrianTruong23/thang-blog",
-    demonstration_url = "https://thang-blog.herokuapp.com/"
+    category = "Website",
+    description = "VieTalk is a project that aims to teaches Vietnamese in an engaging and homey fashion with interactive activities. Students not only learn the language but also the culture and they can be a part of a Vietnamese community.This is the website that I personally design for the project.",
+    img_url = "static/images/vieTalk.png",
+    award = "Educational Website",
+    source_url = "https://github.com/BrianTruong23/website_vieTalk_project",
+    demonstration_url = "https://vietalk-project.herokuapp.com/?fbclid=IwAR3RdCYlORBc38J9egN8DMaR073Lt15kkQaEMMa8Abbpwcuj23-L2jfwN9E"
 )
 
 
